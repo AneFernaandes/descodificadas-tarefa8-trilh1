@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Inclusive+Sans:ital@0;1&family=Mooli&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mooli", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: white;
+  margin: 5%;
+}
+main {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+h4 {
+  font-size: 30px;
+  color: brown;
+}
+
+#vermelho-borda1 {
+  width: 200px;
+  height: 200px;
+  border: black solid 2px;
+  background-color: red;
+}
+
+#vermelho-borda2 {
+  width: 200px;
+  height: 200px;
+  border: black solid 2px;
+  background-color: red;
+}
+.vermelho {
+  width: 200px;
+  height: 200px;
+  border: white solid 1px;
+  background-color: red;
+}
+
+/* linha 2*/
+div {
+  display: flex;
+}
+
+.azul {
+  width: 200px;
+  height: 200px;
+  border: white solid 1px;
+  background-color: #00b0f0;
+}
+.verde {
+  width: 200px;
+  height: 200px;
+  border: white solid 1px;
+  background-color: #00b050;
+}
+.amarelo {
+  width: 200px;
+  height: 200px;
+  border: white solid 1px;
+  background-color: #ffff00;
+}
